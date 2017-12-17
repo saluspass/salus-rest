@@ -111,6 +111,9 @@ local.properties
 *.suo
 *.user
 *.sln.docstates
+*.opendb
+*.db-shm
+*.db-wal
 
 # Text-mode IDE tools
 cscope.out
