@@ -6,6 +6,8 @@
 #include <thread>
 #include <iostream>
 
+#include "handlers/AccountHandler.h"
+
 #define DOCUMENT_ROOT "."
 #define PORT "8081"
 #define EXAMPLE_URI "/example"
@@ -293,6 +295,9 @@ int main(int argc, char *argv[])
 
 	WsStartHandler h_ws;
 	server.addHandler("/ws", h_ws);
+
+	AccountHandler hAccount;
+	server.addHandler("/api/account", hAccount);
 
 #ifdef NO_FILES
 	/* This handler will handle "everything else", including

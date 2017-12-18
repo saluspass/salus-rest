@@ -3,15 +3,33 @@
   <ItemGroup>
     <ClInclude Include="CivetServer.h" />
     <ClInclude Include="civetweb.h" />
+    <ClInclude Include="handlers\AccountHandler.h">
+      <Filter>handlers</Filter>
+    </ClInclude>
+    <ClInclude Include="objectmodel\Error.h">
+      <Filter>objectmodel</Filter>
+    </ClInclude>
+    <ClInclude Include="objectmodel\SerializableObject.h">
+      <Filter>objectmodel</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CivetServer.cpp" />
     <ClCompile Include="civetweb.c" />
     <ClCompile Include="salus-rest.cpp" />
+    <ClCompile Include="handlers\AccountHandler.cpp">
+      <Filter>handlers</Filter>
+    </ClCompile>
+    <ClCompile Include="objectmodel\Error.cpp">
+      <Filter>objectmodel</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="handlers">
       <UniqueIdentifier>{fb66c4d3-6f00-440c-8e9f-87344ea4a127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objectmodel">
+      <UniqueIdentifier>{e7463fb5-6ce6-4322-9536-4779d832c49c}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
