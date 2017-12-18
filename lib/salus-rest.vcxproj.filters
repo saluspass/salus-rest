@@ -12,17 +12,18 @@
     <ClInclude Include="objectmodel\SerializableObject.h">
       <Filter>objectmodel</Filter>
     </ClInclude>
+    <ClInclude Include="CivetHandler.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CivetServer.cpp" />
     <ClCompile Include="civetweb.c" />
-    <ClCompile Include="salus-rest.cpp" />
     <ClCompile Include="handlers\AccountHandler.cpp">
       <Filter>handlers</Filter>
     </ClCompile>
     <ClCompile Include="objectmodel\Error.cpp">
       <Filter>objectmodel</Filter>
     </ClCompile>
+    <ClCompile Include="CivetHandler.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="handlers">
