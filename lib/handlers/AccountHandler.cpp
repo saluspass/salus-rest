@@ -1,4 +1,5 @@
 #include "AccountHandler.h"
+#include "CivetServer.h"
 
 #include "objectmodel/Error.h"
 
