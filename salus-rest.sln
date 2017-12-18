@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "salus-rest", "src\salus-rest.vcxproj", "{4308C5EE-45E4-45D8-9D73-6C4E2587AD78}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "salus-rest", "lib\salus-rest.vcxproj", "{4308C5EE-45E4-45D8-9D73-6C4E2587AD78}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "salus-rest-exe", "exe\salus-rest-exe.vcxproj", "{A0F4FEA8-727C-4593-BBBC-DF3943E7F663}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "salus-rest-net", "net\salus-rest-net.vcxproj", "{D796AF3D-BE68-427F-92C1-37CB2352E127}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,8 +23,27 @@ Global
 		{4308C5EE-45E4-45D8-9D73-6C4E2587AD78}.Release|Win32.ActiveCfg = Release|Win32
 		{4308C5EE-45E4-45D8-9D73-6C4E2587AD78}.Release|Win32.Build.0 = Release|Win32
 		{4308C5EE-45E4-45D8-9D73-6C4E2587AD78}.Release|x64.ActiveCfg = Release|x64
+		{A0F4FEA8-727C-4593-BBBC-DF3943E7F663}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A0F4FEA8-727C-4593-BBBC-DF3943E7F663}.Debug|Win32.Build.0 = Debug|Win32
+		{A0F4FEA8-727C-4593-BBBC-DF3943E7F663}.Debug|x64.ActiveCfg = Debug|x64
+		{A0F4FEA8-727C-4593-BBBC-DF3943E7F663}.Debug|x64.Build.0 = Debug|x64
+		{A0F4FEA8-727C-4593-BBBC-DF3943E7F663}.Release|Win32.ActiveCfg = Release|Win32
+		{A0F4FEA8-727C-4593-BBBC-DF3943E7F663}.Release|Win32.Build.0 = Release|Win32
+		{A0F4FEA8-727C-4593-BBBC-DF3943E7F663}.Release|x64.ActiveCfg = Release|x64
+		{A0F4FEA8-727C-4593-BBBC-DF3943E7F663}.Release|x64.Build.0 = Release|x64
+		{D796AF3D-BE68-427F-92C1-37CB2352E127}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D796AF3D-BE68-427F-92C1-37CB2352E127}.Debug|Win32.Build.0 = Debug|Win32
+		{D796AF3D-BE68-427F-92C1-37CB2352E127}.Debug|x64.ActiveCfg = Debug|x64
+		{D796AF3D-BE68-427F-92C1-37CB2352E127}.Debug|x64.Build.0 = Debug|x64
+		{D796AF3D-BE68-427F-92C1-37CB2352E127}.Release|Win32.ActiveCfg = Release|Win32
+		{D796AF3D-BE68-427F-92C1-37CB2352E127}.Release|Win32.Build.0 = Release|Win32
+		{D796AF3D-BE68-427F-92C1-37CB2352E127}.Release|x64.ActiveCfg = Release|x64
+		{D796AF3D-BE68-427F-92C1-37CB2352E127}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96BE2B7D-2C9B-4286-A9B9-BC50064D454A}
 	EndGlobalSection
 EndGlobal
