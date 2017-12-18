@@ -149,6 +149,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CivetApi.h" />
+    <ClInclude Include="CivetCallbacks.h" />
+    <ClInclude Include="CivetException.h" />
     <ClInclude Include="CivetHandler.h" />
     <ClInclude Include="civetweb.h" />
     <ClInclude Include="CivetServer.h" />
@@ -157,6 +160,7 @@
     <ClInclude Include="objectmodel\SerializableObject.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CivetException.cpp" />
     <ClCompile Include="CivetHandler.cpp" />
     <ClCompile Include="civetweb.c" />
     <ClCompile Include="CivetServer.cpp" />

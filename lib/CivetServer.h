@@ -5,18 +5,8 @@
 #include <map>
 #include <string>
 #include <vector>
-#include <stdexcept>
 
 class CivetServer;
-
-class CIVETWEB_API CivetException : public std::runtime_error
-{
-public:
-	CivetException(const std::string& msg) 
-		: std::runtime_error(msg)
-	{
-	}
-};
 
 class CIVETWEB_API CivetAuthHandler
 {
@@ -43,16 +33,6 @@ public:
 	virtual void handleReadyState(CivetServer* server, struct mg_connection* conn);
 	virtual bool handleData(CivetServer* server, struct mg_connection* conn, int bits, char* data, size_t data_len);
 	virtual void handleClose(CivetServer* server, const struct mg_connection* conn);
-};
-
-/**
- * CivetCallbacks
- *
- * wrapper for mg_callbacks
- */
-struct CIVETWEB_API CivetCallbacks : public mg_callbacks 
-{
-	CivetCallbacks();
 };
 
 /**

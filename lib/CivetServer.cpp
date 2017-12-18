@@ -1,4 +1,6 @@
 #include "CivetServer.h"
+#include "CivetException.h"
+#include "CivetCallbacks.h"
 
 #include <stdlib.h>
 #include <string.h>
@@ -195,11 +197,6 @@ void CivetServer::webSocketCloseHandler(const struct mg_connection* conn, void* 
 	{
 		handler->handleClose(me, conn);
 	}
-}
-
-CivetCallbacks::CivetCallbacks()
-{
-	memset(this, 0, sizeof(*this));
 }
 
 CivetServer::CivetServer(const char** options, const struct CivetCallbacks* _callbacks, const void* UserContextIn)

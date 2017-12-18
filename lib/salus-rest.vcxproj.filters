@@ -13,6 +13,9 @@
       <Filter>objectmodel</Filter>
     </ClInclude>
     <ClInclude Include="CivetHandler.h" />
+    <ClInclude Include="CivetException.h" />
+    <ClInclude Include="CivetCallbacks.h" />
+    <ClInclude Include="CivetApi.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CivetServer.cpp" />
@@ -24,6 +27,7 @@
       <Filter>objectmodel</Filter>
     </ClCompile>
     <ClCompile Include="CivetHandler.cpp" />
+    <ClCompile Include="CivetException.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="handlers">
